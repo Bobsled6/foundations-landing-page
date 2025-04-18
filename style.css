@@ -205,3 +205,13 @@ h3{
     font-size: 24px;
     color:#F9FAF8;
 }
+
+footer{
+    display:flex;
+    background-color:#1F2937 ;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding:50px;
+}
