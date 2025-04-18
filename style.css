@@ -38,7 +38,55 @@ a:visited{
     color:#E5E7EB;
 }
 
+button{
+    width:135px;
+    height:40px;
+    background-color:#3882F6 ;
+    color: white;
+    border-radius: 8px;
+    border-color: transparent;
+    font-weight: 500;
+    font-size: 20px;
+    flex:none;
+    
+}
+
 .hlogo{
     font-size: 24px;
     color:#F9FAF8;
+}
+
+.block-1{
+    padding-top:100px;
+    display:flex;
+    
+}
+
+.twia{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bigpic{
+width:750px;
+height: 200px;
+background-color:grey ;
+display:flex;
+justify-content: center;
+align-items: center;
+color:white;
+}
+
+.d1txt{
+    order:-1;
+    flex-basis:650px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
