@@ -76,11 +76,12 @@ button{
 .bigpic{
 width:750px;
 height: 200px;
-background-color:grey ;
+background-color:lightgray ;
 display:flex;
 justify-content: center;
 align-items: center;
 color:white;
+margin-left:10px;
 }
 
 .d1txt{
@@ -89,4 +90,54 @@ color:white;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.block-2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:250px;
+    padding-right:250px;
+    padding-top:30px;
+    padding-bottom:100px;
+}
+
+.blue-box{
+    border: 4px solid rgb(54, 72, 241);
+    height: 175px;
+    width:175px;
+    flex:1 0 auto;
+    margin:15px;
+    border-radius: 15px;
+}
+
+.imgcpt{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imgitm{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cap{
+    width:175px;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.sri{
+    font-size:36px;
+    color:#1F2937;
+    font-weight: 900;
+    margin-bottom: 35px;
 }
