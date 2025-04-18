@@ -115,6 +115,7 @@ margin-left:10px;
 .imgcpt{
     display: flex;
     justify-content: center;
+    flex-wrap:wrap;
     
 }
 
